@@ -112,12 +112,12 @@ Experience fast and accurate image generation via Google Colab + Gradio UI:
 
 ## 📁 Project Structure
 
-text-to-image-app/
-├── app.py # Streamlit version (CPU)
-├── app_colab.py # Gradio + Colab (GPU)
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── .gitignore # Git exclusions
+- text-to-image-app/
+- ├── app.py # Streamlit version (CPU)
+- ├── app_colab.py # Gradio + Colab (GPU)
+- ├── requirements.txt # Python dependencies
+- ├── README.md # Project documentation
+- └── .gitignore # Git exclusions
 
 ---
 
