@@ -19,4 +19,4 @@ gr.Interface(
     outputs=gr.Image(type="pil"),
     title="🎨 Text-to-Image Generator",
     description="A text-to-image generator using Stable Diffusion v1.5 and Gradio",
-).launch()
+).launch(share=True)
