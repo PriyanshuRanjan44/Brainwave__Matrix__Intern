@@ -6,14 +6,6 @@ A powerful and intuitive **Text-to-Image Generator** leveraging **Stable Diffusi
 
 ---
 
-## 🚀 Live on Google Colab (GPU Powered)
-
-Experience fast and accurate image generation via Google Colab + Gradio UI:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PriyanshuRanjan44/Brainwave__Matrix__Intern/blob/main/app_colab.py)
-
----
-
 ## 📌 Features
 
 - 🔮 Natural Language → AI Image Generation
@@ -85,16 +77,21 @@ Experience fast and accurate image generation via Google Colab + Gradio UI:
 
 ---
 
-## 📀 Google Colab (GPU)
+## 📀 How to Run on Colab (Step-by-Step) (GPU)
 
 > For faster generation using CUDA acceleration and Gradio interface.
 
-## 🔧 Setup Instructions in Colab
+## 1. Open the app_colab.py in Colab by manually uploading the script.
 
-- !pip install diffusers transformers accelerate safetensors gradio
+## 2. If not already imported, you can fetch it via raw URL:
+- !wget https://raw.githubusercontent.com/PriyanshuRanjan44/Brainwave__Matrix__Intern/main/app_colab.py
+
+## 3. Then simply run:
 - !python app_colab.py
 
-- You’ll receive a Gradio-hosted link to use the UI right from your browser.
+## 4. Wait for model loading (~1 minute on GPU).
+
+## 5. A public Gradio live link will appear — click it to access the app in your browser.
 
 ---
 
